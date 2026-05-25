@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+#background {
+  background-color: #f6e8c3;
+  height: 100vh;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+#title{
+    color: #762a83;
+    text-shadow: 4px 4px #c2a5cf;
+    font-family: 'Borel';
+    font-weight: bold;
+    font-size: 12vh;
+    padding-top: 15vh;
+    margin-bottom: 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#title2{
+    color: black;
+    font-family: 'Quicksand';
+    font-weight: light;
+    text-align: center;
+    font-size: 3vh;
+    top: 25vh;
+}
+
+#subheadings{
+    color: #d6604d;
+    font-family: 'Borel';
+    font-size: 5vh;
+}
+
+#card-title{
+    font-family: 'Quicksand';
+    font-weight: bolder;
+    color: #ABD9E9;
+}
+
+.card-text{
+    font-family: 'Quicksand';
+    color: white;
+}
+
+.navbar {
+  background: transparent !important;
+  backdrop-filter: blur(12px);
+  padding: 1rem 0;
+}
+
+.nav-link {
+  position: relative;
+  color: black !important;
+  margin-left: 1.5rem;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #d6604d !important;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 1px;
+  width: 0%;
+  background: #b2182b;
+  box-shadow: 0 0 10px #f4a582;
+  transition: 0.3s;
+}
+
+.nav-link.active {
+  color: #d6604d !important;
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+
+
+.beach {
+  height: 120vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.beach-container{
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.beach-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  z-index: 10;
+  text-align: center;
+}
+
+.section1 {
+    height: 35vh;
+    padding: 0;
+    margin: 0;
+}
+
+.section2 {
+    position: relative;
+    top: 20vh;
+    height: 95vh;
+    z-index: 9;
+}
+
+.section3 {
+  position: relative;
+  top: 20vh;
+  height: 75vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  flex-wrap: wrap;
+  z-index: 10;
+}
+
+.section4 {
+    position: relative;
+    top: 40vh;
+    height: 45vh;
+    z-index: 9;
+}
+
+.header1 {
+    top: 40vh;
+}
+
+.header2 {
+    top: 38vh;
+}
+
+.header3 {
+    top: 32vh;
+}
+
+.p1 {
+    top: 45vh;
+    font-family: 'Quicksand';
+}
+
+.p2 {
+    top: 43vh;
+    font-family: 'Quicksand';
+}
+
+.p3 {
+    top: 37vh;
+    font-family: 'Quicksand';
+}
+
+.node {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 100px;
+}
+
+
+.left {
+  align-items: flex-start;
+}
+
+.right {
+  align-items: flex-end;
+}
+
+.ocean-card {
+  width: 25vw;
+  background:#2166AC !important;
+  color: black;
+  border: 1px solid #74add1;
+  backdrop-filter: blur(8px);
+  transition: 0.3s;
+  padding: 1%;
+}
+
+.ocean-card:hover {
+  transform: translateY(-5px);
+}
+
+.map-card {
+  width: 300px;
+
+  background:#dfc27d;
+
+  color: black;
+
+  border: 1px solid #dfc27d;
+
+  backdrop-filter: blur(8px);
+
+  transition: 0.3s;
+}
+
+.map-card:hover {
+  transform: translateY(-5px);
+}
+
+/* SVG LINE */
+
+.line {
+  width: 200px;
+  height: 100px;
+
+  position: absolute;
+
+  top: 110px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+}
+
+/* DOTTED PATH */
+
+.path {
+  fill: none;
+
+  stroke: #00d9ff;
+
+  stroke-width: 3;
+
+  stroke-dasharray: 8 6;
+}
+
