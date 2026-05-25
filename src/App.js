@@ -188,54 +188,54 @@ function App() {
           <h2 id = 'subheadings' className='beach-text header3'>Projects</h2>
 
           <section className='section4'>
-          <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <div id="projectCarousel" className="carousel slide">
+                <div className="carousel-indicators">
+                  <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active card-text">
+                <div className="carousel-inner">
+                  <div className="carousel-item active card-text">
                     <img src={swimming} class="d-block w-100" alt="swimming students sitting by the pool" ></img>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-none d-md-block">
                       <h5>Service Site</h5>
                       <p>Swimming Lessons</p>
                       <a href="/ComingSoon.html">Click Here</a>
                     </div>
                   </div>
-                  <div class="carousel-item card-text">
+                  <div className="carousel-item card-text">
                     <img src={bakery} class="d-block w-100" alt="small pies on a baking sheets" ></img>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-none d-md-block">
                       <h5>Matching Game</h5>
                       <p>Match Baked Goods</p>
                       <a href="/ComingSoon.html">Click Here</a>
                     </div>
                   </div>
-                  <div class="carousel-item card-text">
+                  <div className="carousel-item card-text">
                     <img src={tea} class="d-block w-100" alt="loose leaf tea and tea with lemon, top view" ></img>
-                    <div class="carousel-caption d-none d-md-block">
+                    <div className="carousel-caption d-none d-md-block">
                       <h5 id = "blackText">E-Commerce Site</h5>
                       <p id = "blackText">Loose Leaf Tea Shop</p>
                       <a href="/ComingSoon.html">Click Here</a>
                     </div>
                   </div>
-                  <div class="carousel-item card-text">
-                    <img src={analytics} class="d-block w-100" alt="analytics dashboard on a tablet" ></img>
-                    <div class="carousel-caption d-none d-md-block">
+                  <div classN
+                    <img src={analytics} class="d-block w-100" alt="analytics dashboard on a tablegitt" ></img>
+                    <div className="carousel-caption d-none d-md-block">
                       <h5>Analytics/Visualization Site</h5>
                       <p>Café Sales Analytics Dashboard</p>
                       <a href="/ComingSoon.html">Click Here</a>
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                <button className="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                <button className="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
           </section>
