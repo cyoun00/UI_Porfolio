@@ -220,8 +220,8 @@ function App() {
                       <a href="/ComingSoon.html">Click Here</a>
                     </div>
                   </div>
-                  <div classN
-                    <img src={analytics} class="d-block w-100" alt="analytics dashboard on a tablegitt" ></img>
+                  <div className="carousel-item card-text">
+                    <img src={analytics} class="d-block w-100" alt="analytics dashboard on a tablet" ></img>
                     <div className="carousel-caption d-none d-md-block">
                       <h5>Analytics/Visualization Site</h5>
                       <p>Café Sales Analytics Dashboard</p>
