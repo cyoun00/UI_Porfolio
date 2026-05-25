@@ -42,7 +42,7 @@ function App() {
 
       <section id = 'home' className='section1'>
         <h1 id = 'title'>Christina Young Pow</h1>
-        <h3 id = 'title2'>3rd Year Computer Science Student | University of Ottawa</h3>
+        <h2 id = 'title2'>3rd Year Computer Science Student | University of Ottawa</h2>
       </section>
 
       <div className='beach-container'>
@@ -196,7 +196,7 @@ function App() {
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active card-text">
                     <img src={swimming} class="d-block w-100" alt="swimming students sitting by the pool" ></img>
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Service Site</h5>
@@ -204,7 +204,7 @@ function App() {
                       <a href="/ComingSoon.html">Click Here</a>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item card-text">
                     <img src={bakery} class="d-block w-100" alt="small pies on a baking sheets" ></img>
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Matching Game</h5>
@@ -212,15 +212,15 @@ function App() {
                       <a href="/ComingSoon.html">Click Here</a>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item card-text">
                     <img src={tea} class="d-block w-100" alt="loose leaf tea and tea with lemon, top view" ></img>
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>E-Commerce Site</h5>
-                      <p>Loose Leaf Tea Shop</p>
+                      <h5 id = "blackText">E-Commerce Site</h5>
+                      <p id = "blackText">Loose Leaf Tea Shop</p>
                       <a href="/ComingSoon.html">Click Here</a>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item card-text">
                     <img src={analytics} class="d-block w-100" alt="analytics dashboard on a tablet" ></img>
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Analytics/Visualization Site</h5>

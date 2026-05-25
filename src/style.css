@@ -10,6 +10,10 @@ body {
   scroll-behavior: smooth;
 }
 
+#blackText{
+    color: black;
+}
+
 #title{
     color: #762a83;
     text-shadow: 4px 4px #c2a5cf;
@@ -33,6 +37,7 @@ body {
 
 #subheadings{
     color: #d6604d;
+    text-shadow: 2px 2px #f4a582;
     font-family: 'Borel';
     font-size: 5vh;
 }
@@ -62,7 +67,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #d6604d !important;
+  color: #b2182b !important;
 }
 
 .nav-link::after {
@@ -78,7 +83,7 @@ body {
 }
 
 .nav-link.active {
-  color: #d6604d !important;
+  color: #b2182b !important;
 }
 
 .nav-link.active::after {
