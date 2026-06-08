@@ -201,7 +201,7 @@ function App() {
                     <div className="carousel-caption d-none d-md-block">
                       <h5>Service Site</h5>
                       <p>Swimming Lessons</p>
-                      <a href="/ComingSoon.html">Click Here</a>
+                      <a href="https://silver-crostata-94f613.netlify.app">Click Here</a>
                     </div>
                   </div>
                   <div className="carousel-item card-text">
