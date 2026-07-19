@@ -12,10 +12,10 @@ import purplebubble from "./assets/purplebubble.svg";
 import linjellyfish from "./assets/linjellyfish.svg";
 import whitejellyfish from "./assets/whitejellyfish.svg";
 import radjellyfish from "./assets/radjellyfish.svg";
-import bakery from "./assets/pexels-mumun96-37308584.jpg";
-import swimming from "./assets/pexels-alialcantara-18090684.jpg";
-import tea from "./assets/pexels-anna-pou-8329985.jpg";
-import analytics from "./assets/pexels-wecare-media-123880473-10020092.jpg";
+import bakery from "./assets/game.png";
+import swimming from "./assets/service.png";
+import tea from "./assets/ecommerce.png";
+import analytics from "./assets/dashboard.png";
 
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
       </Navbar>
 
       <section id = 'home' className='section1'>
-        <h1 id = 'title'>Christina Young Pow</h1>
+        <h1 className='portfolio-name'>Christina Young Pow</h1>
         <h2 id = 'title2'>3rd Year Computer Science Student | University of Ottawa</h2>
       </section>
 
@@ -85,7 +85,17 @@ function App() {
               height: "4vh"
             }}/>
           <h2 id = 'subheadings' className='beach-text header1'>About</h2>
-          <p className = 'beach-text p1'>Hi! Welcome to my page, I'm Christina. I'm a 3rd year university student studying computer science with a focus on data science and a great interest in UI/UX design. I have experience in JavaScript, HTML, CSS, and React. I love reading, swimming, and baking treats I've never tried before. </p>
+          <Card id='about-card' style={{
+              position: "absolute",
+              left: "30vw",
+              top: "55vh",
+              width: "40vw",
+              height: "20vh",
+              zIndex: 3
+            }}>
+            <Card.Title id='about-title'>Hi! Welcome to my page, I'm Christina.</Card.Title>
+            <Card.Text id='about-text'>I'm a 3rd year university student studying computer science with a focus on data science and a great interest in UI/UX design. I have experience in JavaScript, HTML, CSS, and React. I love reading, swimming, and baking treats I've never tried before. </Card.Text>
+          </Card>
             <img src={whitejellyfish} alt="white jellyfish" 
             style={{
               position: "absolute",
@@ -199,17 +209,17 @@ function App() {
                   <div className="carousel-item active card-text">
                     <img src={swimming} class="d-block w-100" alt="swimming students sitting by the pool" ></img>
                     <div className="carousel-caption d-none d-md-block">
-                      <h5>Service Site</h5>
-                      <p>Swimming Lessons</p>
-                      <a href="https://silver-crostata-94f613.netlify.app">Click Here</a>
+                      <h5 id = "blackText">Service Site</h5>
+                      <p id = "blackText">Swimming Lessons</p>
+                      <a id = "blackText" href="https://silver-crostata-94f613.netlify.app">Click Here</a>
                     </div>
                   </div>
                   <div className="carousel-item card-text">
                     <img src={bakery} class="d-block w-100" alt="small pies on a baking sheets" ></img>
                     <div className="carousel-caption d-none d-md-block">
-                      <h5>Matching Game</h5>
-                      <p>Match Baked Goods</p>
-                      <a href="/ComingSoon.html">Click Here</a>
+                      <h5 id = "blackText">Matching Game</h5>
+                      <p id = "blackText">Match Baked Goods</p>
+                      <a id = "blackText" href="https://jocular-sopapillas-547173.netlify.app">Click Here</a>
                     </div>
                   </div>
                   <div className="carousel-item card-text">
@@ -217,26 +227,26 @@ function App() {
                     <div className="carousel-caption d-none d-md-block">
                       <h5 id = "blackText">E-Commerce Site</h5>
                       <p id = "blackText">Loose Leaf Tea Shop</p>
-                      <a href="/ComingSoon.html">Click Here</a>
+                      <a id = "blackText" href="https://animated-dango-8e5b93.netlify.app/">Click Here</a>
                     </div>
                   </div>
                   <div className="carousel-item card-text">
                     <img src={analytics} class="d-block w-100" alt="analytics dashboard on a tablet" ></img>
                     <div className="carousel-caption d-none d-md-block">
-                      <h5>Analytics/Visualization Site</h5>
-                      <p>Café Sales Analytics Dashboard</p>
-                      <a href="/ComingSoon.html">Click Here</a>
+                      <h5 id = "blackText">Analytics/Visualization Site</h5>
+                      <p id = "blackText">Café Sales Analytics Dashboard</p>
+                      <a id = "blackText" href="https://polite-pithivier-e80b03.netlify.app/">Click Here</a>
                     </div>
                   </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
-                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
-                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span className="visually-hidden">Next</span>
-                </button>
+                  <button className="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button className="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
               </div>
           </section>
           </section>
